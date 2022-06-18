@@ -23,7 +23,7 @@ This project comes with a Dockerfile for an easy build.
 Only requirement is to have DockerDesktop installed and running.
 
 List of commands:
- - 1.`docker build -t name_of_container`
+ - 1.`docker build -t name_of_container .`
  - 2.`docker run -p 8000:8000 name_of_container`
 
-Then you will be able to enter you localhost on port 8000.
+Then you will be able to enter on your localhost:8000.
